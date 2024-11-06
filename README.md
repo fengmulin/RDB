@@ -3,7 +3,7 @@
 Rethinking the Distinction Between Text and False Positive Patterns: An Effective Scene Text Detector
 
 ## Environment
-The environment and usage are based on: [DBNet](https://github.com/MhLiao/DB)
+The environment, datasets, and usage are based on: [DBNet](https://github.com/MhLiao/DB)
 ```bash
 conda create -n RDB python==3.9
 conda activate RDB
@@ -38,10 +38,10 @@ CUDA_VISIBLE_DEVICES=0 python eval.py experiments/rdb/ctw/res50.yaml --box_thres
 ```CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py path-to-yaml-file --num_gpus 4```
 
 ## Acknowledgement
-Thanks to [DBNet](https://github.com/MhLiao/DB) for a standardized training and inference framework. 
+Thanks to [DBNet](https://github.com/MhLiao/DB) and [TextBPN++](https://github.com/GXYM/TextBPN-Plus-Plus) for a standardized training and inference framework. 
 
 ## Models
-RDB trained models [Google Drive](https://drive.google.com/drive/folders/1buwe_b6ysoZFCJgHMHIr-yHd-hEivQRK?usp=sharing).
+RDB trained models [Google Drive](https://drive.google.com/file/d/13A-oL912cyD0tKbqu3SQiAf4WaTf4gfp/view?usp=drive_link).
 
 
 
