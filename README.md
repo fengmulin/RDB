@@ -23,8 +23,6 @@ Follow the [DBNet]([https://drive.google.com/drive/folders/1buwe_b6ysoZFCJgHMHIr
 
 
 ### Evaluate the performance
-
-
 ```
 CUDA_VISIBLE_DEVICES=0 python eval.py experiments/rdb/mpsc/res50.yaml --box_thresh 0.5 --resume workspace/mpsc/mpsc_res50
 CUDA_VISIBLE_DEVICES=1 python eval.py experiments/rdb/total/res50.yaml --box_thresh 0.65 --polygon --resume workspace/total/total_res50
